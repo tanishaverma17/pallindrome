@@ -198,7 +198,7 @@ function clickHandler(e){
     }
     else{
         var [ctr, NextDate] = GetNextPallindrome(date);
-        result.innerText = "the next Pallindrome date is "+ NextDate.day + "-" + NextDate.month + "-" + NextDate.year + "You missec it by" + ctr + "days";
+        result.innerText = "Your Bday is not a pallindrome. The next Pallindrome date is "+ NextDate.day + "-" + NextDate.month + "-" + NextDate.year + ". You missed it by " + ctr + "days";
     }
 }
 

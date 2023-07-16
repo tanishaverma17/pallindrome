@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+}
+#birthday{
+    display: block;
+    font-size: 40px;
+}
+label, input, button{
+    display: block;
+}
+label{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 3rem;
+
+}
+#input{
+    border: 1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+#show-btn{
+    background-color: rgb(0, 183, 255);
+    color: #fff;
+    font-size: 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+}
+#result{
+    color: #fff;
+    font-size: 30px;
+}
